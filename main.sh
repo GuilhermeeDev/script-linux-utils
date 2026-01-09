@@ -7,12 +7,12 @@ done
 
 function menu(){
     echo "/////////////////////////////////////////////////"
-    echo "///            Script Linux Utils             ///"
+    echo "///              Kali Linux Utils             ///"
     echo "/////////////////////////////////////////////////"
-    echo "/// 1 - Config Kali Linux                     ///"
+    echo "/// 1 - Configurar Kali Linux                 ///"
     echo "/// 2 - Mudar MAC Address                     ///"
-    echo "/// 3 - Proxy Firefox                         ///"
-    echo "/// 0 - Sair                                 ///"
+    echo "/// 3 - Iniciar Firefox com Proxychain        ///"
+    echo "/// 0 - Sair                                  ///"
     echo "/////////////////////////////////////////////////"
 
     read -p "Escolha uma opcao:" choice
@@ -24,7 +24,5 @@ function menu(){
         *) exit 0 ;;
     esac 
 }
-
-# locate proxychain
 
 menu
