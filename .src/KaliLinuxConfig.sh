@@ -1,6 +1,6 @@
 #!/bin/bash
 
-packages=( tor cargo htop python3 pip macchanger plocate fastfetch fzf )
+packages=( tor cargo htop python3 pip macchanger plocate fastfetch fzf vim silversearcher )
 
 sudo apt update -y && sudo apt upgrade -y
 sudo apt-get full-upgrade -y
