@@ -1,2 +1,5 @@
-# script-linux-utils
-Script com ferramentas uteis para uso do linux
+# Recomendação de uso
+Kali Linux Scripts Utils fornece ferramentas como:
+\+ Configuração de Tor & Proxychains4
+\+ Instalação e configuração do [Atuin](https://docs.atuin.sh/cli/guide/getting-started/)
+
